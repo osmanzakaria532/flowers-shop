@@ -10,17 +10,42 @@
   font-optical-sizing: auto;
 }
 
-ul li:first-child a {
+nav ul li:first-child a {
   color: #252432;
   font-weight: 700;
 }
 
-ul li a {
+nav ul li a {
   color: #8987a1;
   line-height: 24px;
   font-size: 16px;
 }
 
-ul li:last-child a {
+nav ul li:last-child a {
   color: #000;
+}
+
+/* Footer  */
+
+footer ul li {
+  margin-bottom: 32px;
+}
+
+footer ul li:last-child {
+  margin-bottom: 0;
+}
+
+footer ul li a {
+  color: #8987a1;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer div {
+    margin-bottom: 16px
+  }
+  footer ul li {
+    margin-bottom: 16px;
+  }
+
 }
